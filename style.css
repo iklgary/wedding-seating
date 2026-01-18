@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(135deg, #efe9f6, #faf8fc);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  background: rgba(255,255,255,0.9);
+  padding: 3rem;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 420px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #777;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.4px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 8px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+li {
+  padding: 12px;
+  background: white;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+li:hover {
+  background: #f6f2f3;
+}
+
+#result {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+}
